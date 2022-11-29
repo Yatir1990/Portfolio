@@ -2,8 +2,7 @@
 Select *
 From NashvilleHousingDataset
 
-
-										        /* Cleaning Date */
+							        /* Cleaning Date */
 
 -----------------------------------------------------------------------------------------------------------
 
@@ -27,7 +26,7 @@ Set SaleDateConverted = CONVERT(date, SaleDate)
 
 ------------------------------------------------------------------------------------------------------------
 
-						  				/* Populate Property Address data (NULL Values) */
+							/* Populate Property Address data (NULL Values) */
 
 -- ParcelID column is the id of the property, and I can base my cleaning on this
 
@@ -55,7 +54,7 @@ Where a.PropertyAddress is Null
 
 ------------------------------------------------------------------------------------------------------------
 
-							/* Separating Address columns into individual columns (Address, City, State) */
+					/* Separating Address columns into individual columns (Address, City, State) */
 
 Select PropertyAddress
 From NashvilleHousingDataset
@@ -130,7 +129,7 @@ From NashvilleHousingDataset
 
 ------------------------------------------------------------------------------------------------------------
 
-									/* SoldAsVacant column has 4 options but I need it to have just 2 */
+						/* SoldAsVacant column has 4 options but I need it to have just 2 */
 
 Select Distinct(SoldAsVacant)
 From NashvilleHousingDataset
@@ -171,7 +170,7 @@ Order by 2
 
 ------------------------------------------------------------------------------------------------------------
 
-														/* Remove Duplicates */
+							/* Remove Duplicates */
 
 /* Using CTE (temporal table) to identify duplicates, 
    "ROW_NUMBER() Over (Partition By" to distinct duplicates */
@@ -235,7 +234,7 @@ Where RowNum > 1
 
 ------------------------------------------------------------------------------------------------------------
 
-									/* Delete Unused Columns */
+							/* Delete Unused Columns */
 
 Select *
 From NashvilleHousingDataset
