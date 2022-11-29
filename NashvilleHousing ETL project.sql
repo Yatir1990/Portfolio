@@ -16,7 +16,7 @@ From NashvilleHousingDataset
 Update NashvilleHousingDataset
 Set SaleDate = CONVERT(date, SaleDate) 
 
--- It was not working so I used another approch
+-- It was not working so I used another approach
 
 Alter Table NashvilleHousingDataset
 Add SaleDateConverted Date;
