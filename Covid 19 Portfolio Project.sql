@@ -14,7 +14,7 @@ Order by 1,2
 
 
 -- Total Cases vs Total Death
--- Shows liklihood of dying if you contract covid in your country
+-- Shows likelihood of dying if you contract COVID-19 in your country
 
 Select location, date, total_cases, total_deaths, (total_deaths/total_cases)*100 as death_percentage
 From ProtfolioProjects..CovidDeaths
