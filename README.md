@@ -2,10 +2,11 @@
 
 Hi, I'm Yatir! 
 
-This repository is to showcase my skills, share projects and track my progress in Data Analytics / Data Science related topics.
+I am currently pursuing a Master's degree in Economics and Business Analytics at Johannes Kepler Universität
+Linz. Driven by a strong passion for coding and continuous learning, I leverage my analytical skills and data
+analyst experience to transform data into actionable insights. I thrive as an effective team player with excellent
+communication skills, always ready to collaborate and contribute enthusiastically.
 
-Contacts
-
+Contacts:
 LinkedIn: @Yatir-Biaon
-
 yatir20@gmail.com
