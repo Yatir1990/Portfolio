@@ -1,4 +1,4 @@
-/* -- Intial information -- */
+/* -- Initial information -- */
 
 /* This project involves processing raw housing data from Nashville houses by cleaning and transforming it 
 	into a structured format in SQL Server. This transformation involved organizing and standardizing the data 
